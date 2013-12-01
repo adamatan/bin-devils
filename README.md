@@ -15,6 +15,17 @@ Add the bin path to your `.bashrc` or `.zshrc`, e.g.:
 
 # Scripts
 
+### comment
+
+Prints a fixed-width padded comment.
+
+    # comment "Fixed width comment"
+    ############################# Fixed width comment ##############################
+    # comment --xml "Fixed width comment"
+    <!--                          Fixed width comment                            -->
+    comment --java "Wider comment" 120
+    /*************************************************** Wider comment ****************************************************/
+
 ### jls
 
 Lists classes and methods in a Java jar.
