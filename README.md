@@ -47,6 +47,15 @@ Lists classes and methods in a Java jar.
     3 files in 2 directories (total  12K).
     Moved to /tmp/rmf/2012_10_15__16_28_28/blah
     
+### [vim scripts](https://github.com/adamatan/bin/tree/master/scripts/vim_scripts)
+
+Creates an executable file with the right shebang for bash or Python.
+
+    $ pvim blah.py
+    <vim opens, you can edit the file and exit>
+
+    $ cat blah.py
+    #!/usr/bin/python
 
 # setup
 
