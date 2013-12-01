@@ -30,7 +30,7 @@ Prints a fixed-width padded comment.
 
 Lists classes and methods in a Java jar.
 
-    # jls jls log4j-1.2.16.jar
+    # jls log4j-1.2.16.jar
    
     public interface org.apache.log4j.Appender {
       public abstract void addFilter(org.apache.log4j.spi.Filter);
