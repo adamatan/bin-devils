@@ -1,17 +1,16 @@
-bin
-===
-
-Useful scripts for your `~/bin` directory.
-
 # Install
 
-Clone the repo, preferably to `~/bin`:
+Clone the repo, probably to `~/bin`:
 
     git clone git@github.com:adamatan/bin.git ~/bin
 
-Add the bin path to your `.bashrc` or `.zshrc`, e.g.:
+Add the full bin path to your `.bashrc` or `.zshrc`, e.g.:
 
-    PATH=$PATH:/home/adam/bin
+    PATH=$PATH:/home/your_user_name/bin
+
+Or, for OSX:
+
+    PATH=$PATH:/Users/your_user_name/bin
 
 # Scripts
 
