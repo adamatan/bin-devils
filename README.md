@@ -14,7 +14,7 @@ Or, for OSX:
 
 # Scripts
 
-### comment
+### [comment](https://github.com/adamatan/bin/tree/master/scripts/comment)
 
 Prints a fixed-width padded comment.
 
@@ -27,7 +27,7 @@ Prints a fixed-width padded comment.
     comment --java "Wider comment" 100
     /***************************************** Wider comment ******************************************/
 
-### datef
+### [datef](https://github.com/adamatan/bin/tree/master/scripts/datef)
 
 Prints various date formats.
 
@@ -40,7 +40,7 @@ Prints various date formats.
     date -u "+%Y-%m-%d %H:%M:%S.%N %z (%Z)"  2013-08-09 23:02:18.315541000 +0000 (UTC)  Space separated with nanoseconds and tz abbreviation
    ...
 
-### jls
+### [jls](https://github.com/adamatan/bin/tree/master/scripts/jls)
 
 Lists classes and methods in a Java jar.
 
@@ -51,7 +51,7 @@ Lists classes and methods in a Java jar.
       public abstract org.apache.log4j.spi.Filter getFilter();
     ...
 
-### rmf
+### [rmf](https://github.com/adamatan/bin/tree/master/scripts/rmf)
 
 `rm -rf` replacement. Copies files to `/tmp/rmf`.
 
