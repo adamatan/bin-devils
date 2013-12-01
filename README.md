@@ -23,8 +23,8 @@ Prints a fixed-width padded comment.
     ############################# Fixed width comment ##############################
     # comment --xml "Fixed width comment"
     <!--                          Fixed width comment                            -->
-    comment --java "Wider comment" 120
-    /*************************************************** Wider comment ****************************************************/
+    comment --java "Wider comment" 100
+    /***************************************** Wider comment ******************************************/
 
 ### jls
 
