@@ -1,16 +1,4 @@
-# Install
-
-Clone the repo, probably to `~/bin`:
-
-    git clone git@github.com:adamatan/bin.git ~/bin
-
-Add the full bin path to your `.bashrc` or `.zshrc`, e.g.:
-
-    PATH=$PATH:/home/your_user_name/bin
-
-Or, for OSX:
-
-    PATH=$PATH:/Users/your_user_name/bin
+Looking for the [setup guide](#setup)?
 
 # Scripts
 
@@ -59,3 +47,17 @@ Lists classes and methods in a Java jar.
     3 files in 2 directories (total  12K).
     Moved to /tmp/rmf/2012_10_15__16_28_28/blah
     
+
+# setup
+
+Clone the repo, probably to `~/bin`:
+
+    git clone git@github.com:adamatan/bin.git ~/bin
+
+Add the full bin path to your `.bashrc` or `.zshrc`, e.g.:
+
+    PATH=$PATH:/home/your_user_name/bin
+
+Or, for OSX:
+
+    PATH=$PATH:/Users/your_user_name/bin
