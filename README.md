@@ -20,10 +20,25 @@ Prints a fixed-width padded comment.
 
     # comment "Fixed width comment"
     ############################# Fixed width comment ##############################
+        
     # comment --xml "Fixed width comment"
     <!--                          Fixed width comment                            -->
+    
     comment --java "Wider comment" 100
     /***************************************** Wider comment ******************************************/
+
+### datef
+
+Prints various date formats.
+
+    # datef
+    ...
+    RFC 3339 / ISO 8601, UTC:
+    date -u "+%Y-%m-%dT%H:%M:%S%z"           2013-08-09T23:02:18+0000                   T-separated
+    date -u "+%Y-%m-%d %H:%M:%S%z"           2013-08-09 23:02:18+0000                   Space separated
+    date -u "+%Y-%m-%d %H:%M:%S%z (%Z)"      2013-08-09 23:02:18+0000 (UTC)             Space separated with tz     abbreviation
+    date -u "+%Y-%m-%d %H:%M:%S.%N %z (%Z)"  2013-08-09 23:02:18.315541000 +0000 (UTC)  Space separated with nanoseconds and tz abbreviation
+   ...
 
 ### jls
 
