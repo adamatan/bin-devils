@@ -23,7 +23,3 @@ TODO
  * Support wildcards (`*`, `?`)
  * Check for sufficient space in `/tmp` before moving
 
-License
--------
-
-MIT license (see `license.txt`).
