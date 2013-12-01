@@ -1,4 +1,36 @@
 bin
 ===
 
-My scripts for CLI machines.
+Useful scripts for your `~/bin` directory.
+
+# Install
+
+Clone the repo, preferably to `~/bin`:
+
+    git clone git@github.com:adamatan/bin.git ~/bin
+
+Add the bin path to your `.bashrc` or `.zshrc`, e.g.:
+
+    PATH=$PATH:/home/adam/bin
+
+# Scripts
+
+### jls
+
+Lists classes and methods in a Java jar.
+
+    # jls jls log4j-1.2.16.jar
+   
+    public interface org.apache.log4j.Appender {
+      public abstract void addFilter(org.apache.log4j.spi.Filter);
+      public abstract org.apache.log4j.spi.Filter getFilter();
+    ...
+
+### rmf
+
+`rm -rf` replacement. Copies files to `/tmp/rmf`.
+
+    # rmf blah
+    3 files in 2 directories (total  12K).
+    Moved to /tmp/rmf/2012_10_15__16_28_28/blah
+    
