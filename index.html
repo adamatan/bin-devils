@@ -39,10 +39,10 @@
 
 <p>Prints a fixed-width padded comment.</p>
 
-<pre><code># comment "Fixed width comment"
+<pre><code>$ comment "Fixed width comment"
 ############################# Fixed width comment ##############################
 
-# comment --xml "Fixed width comment"
+$ comment --xml "Fixed width comment"
 &lt;!--                          Fixed width comment                            --&gt;
 
 comment --java "Wider comment" 100
@@ -55,7 +55,7 @@ comment --java "Wider comment" 100
 
 <p>Prints various date formats.</p>
 
-<pre><code># datef
+<pre><code>$ datef
 ...
 RFC 3339 / ISO 8601, UTC:
 date -u "+%Y-%m-%dT%H:%M:%S%z"           2013-08-09T23:02:18+0000                   T-separated
@@ -72,7 +72,7 @@ date -u "+%Y-%m-%d %H:%M:%S.%N %z (%Z)"  2013-08-09 23:02:18.315541000 +0000 (UT
 
 <p>Lists classes and methods in a Java jar.</p>
 
-<pre><code># jls log4j-1.2.16.jar
+<pre><code>$ jls log4j-1.2.16.jar
 
 public interface org.apache.log4j.Appender {
   public abstract void addFilter(org.apache.log4j.spi.Filter);
@@ -86,9 +86,26 @@ public interface org.apache.log4j.Appender {
 
 <p><code>rm -rf</code> replacement. Copies files to <code>/tmp/rmf</code>.</p>
 
-<pre><code># rmf blah
+<pre><code>$ rmf blah
 3 files in 2 directories (total  12K).
 Moved to /tmp/rmf/2012_10_15__16_28_28/blah
+</code></pre>
+
+<h3>
+<a name="rmh" class="anchor" href="#rmh"><span class="octicon octicon-link"></span></a><a href="https://github.com/adamatan/bin/tree/master/scripts/rmf">rmh</a>
+</h3>
+
+<p>Removes lines from <code>~/.ssh/known_hosts</code>.</p>
+
+<pre><code>$ rmh -v 138 534
+Backing up /home/adamatan/.ssh/known_hosts to /home/adamatan/.ssh/known_hosts.rmh.bak
+
+Removing lines:
+137:
+92.133.121.121 ssh-rsa ...
+
+533:
+blah.example.com ssh-rsa ...
 </code></pre>
 
 <h3>
