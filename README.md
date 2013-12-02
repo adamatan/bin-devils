@@ -47,7 +47,7 @@ Lists classes and methods in a Java jar.
     3 files in 2 directories (total  12K).
     Moved to /tmp/rmf/2012_10_15__16_28_28/blah
 
-### [rmh](https://github.com/adamatan/bin/tree/master/scripts/rmf)
+### [rmh](https://github.com/adamatan/bin/tree/master/scripts/rmh)
 
 Removes lines from `~/.ssh/known_hosts`.
 
