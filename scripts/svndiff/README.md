@@ -1,6 +1,6 @@
 # svndiff
 
-Opens svn diff output in `opendiff` GUI under OSX.
+OSX GUI diff for svn with the builtin `opendiff`.
 
 Usage:
 
