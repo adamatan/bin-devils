@@ -6,4 +6,4 @@ Usage:
 
     svn diff --diff-cmd svndiff <optional filenames>
 
-Lacking `<optional filenames>`, opendiff will be opened for every changed file that appears in `svn status`.
+Without `<optional filenames>`, a new opendiff window will be opened for each changed file in `svn status`. 
