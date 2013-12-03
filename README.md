@@ -61,6 +61,11 @@ Removes lines from `~/.ssh/known_hosts`.
     533:
     blah.example.com ssh-rsa ...
 
+### [svndiff](https://github.com/adamatan/bin/tree/master/scripts/svndiff)
+
+OSX GUI svn diff.
+
+    svn diff --diff-cmd svndiff <optional filenames>
 
 ### [vim scripts](https://github.com/adamatan/bin/tree/master/scripts/vim_scripts)
 
