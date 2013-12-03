@@ -83,10 +83,12 @@ Clone the repo, probably to `~/bin`:
 
     git clone git@github.com:adamatan/bin.git ~/bin
 
-Add the full bin path to your `.bashrc` or `.zshrc`, e.g.:
+Add the full bin path to your `.bashrc` or `.zshrc`:
 
-    PATH=$PATH:/home/your_user_name/bin
+Linux:
 
-Or, for OSX:
+    export PATH=$PATH:/home/your_user_name/bin
 
-    PATH=$PATH:/Users/your_user_name/bin
+OSX:
+
+    exportPATH=$PATH:/Users/your_user_name/bin
