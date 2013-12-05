@@ -61,6 +61,12 @@ Removes lines from `~/.ssh/known_hosts`.
     533:
     blah.example.com ssh-rsa ...
 
+### [pyg](https://github.com/adamatan/bin/tree/master/scripts/pyg)
+
+Opens a source file in a browser, with syntax highlighting.
+
+	    $ pyg somefile.py
+
 ### [svndiff](https://github.com/adamatan/bin/tree/master/scripts/svndiff)
 
 OSX GUI svn diff.
