@@ -65,7 +65,7 @@ Removes lines from `~/.ssh/known_hosts`.
 
 Opens a source file in a browser, with syntax highlighting.
 
-	    $ pyg somefile.py
+    $ pyg somefile.py
 
 ### [svndiff](https://github.com/adamatan/bin/tree/master/scripts/svndiff)
 
