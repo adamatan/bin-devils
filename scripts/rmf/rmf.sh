@@ -36,7 +36,7 @@ SIZE=`/usr/bin/du -sh ${PATH} | /usr/bin/cut -s -f 1`
 NUM_FILES=`/usr/bin/find ${PATH} -type f  | /usr/bin/wc -l | /usr/bin/tr -d ' '`
 NUM_DIRS=`/usr/bin/find ${PATH} -type d  | /usr/bin/wc -l | /usr/bin/tr -d ' '`
 TIMESTAMP=`/bin/date +"%Y_%m_%d__%H_%M_%S"`
-DEST="/tmp/rmf/${TIMESTAMP}"
+DEST="/tmp/rmf/${TIMESTAMP}_${PATH}"
 
 echo "${NUM_FILES} files in ${NUM_DIRS} directories (total ${SIZE})."
 /bin/mkdir -p $DEST
