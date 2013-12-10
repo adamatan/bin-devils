@@ -6,10 +6,10 @@ Looking for the [setup guide](#setup)?
 
 Prints a fixed-width padded comment.
 
-    $ comment "Fixed width comment"
+    % comment "Fixed width comment"
     ############################# Fixed width comment ##############################
         
-    $ comment --xml "Fixed width comment"
+    % comment --xml "Fixed width comment"
     <!--                          Fixed width comment                            -->
     
     comment --java "Wider comment" 100
@@ -19,7 +19,7 @@ Prints a fixed-width padded comment.
 
 Prints various date formats.
 
-    $ datef
+    % datef
     ...
     RFC 3339 / ISO 8601, UTC:
     date -u "+%Y-%m-%dT%H:%M:%S%z"           2013-08-09T23:02:18+0000                   T-separated
@@ -32,18 +32,26 @@ Prints various date formats.
 
 Lists classes and methods in a Java jar.
 
-    $ jls log4j-1.2.16.jar
+    % jls log4j-1.2.16.jar
    
     public interface org.apache.log4j.Appender {
       public abstract void addFilter(org.apache.log4j.spi.Filter);
       public abstract org.apache.log4j.spi.Filter getFilter();
     ...
 
+
+### [fpn](https://github.com/adamatan/bin/tree/master/scripts/fpn)
+
+Prints the full path name of one or more files.
+
+    % fpn LICENSE
+    /Users/adamatan/bins/scripts/fpn/LICENSE
+
 ### [rmf](https://github.com/adamatan/bin/tree/master/scripts/rmf)
 
 `rm -rf` replacement. Copies files to `/tmp/rmf`.
 
-    $ rmf blah
+    % rmf blah
     3 files in 2 directories (total  12K).
     Moved to /tmp/rmf/2012_10_15__16_28_28/blah
 
@@ -51,7 +59,7 @@ Lists classes and methods in a Java jar.
 
 Removes lines from `~/.ssh/known_hosts`.
 
-    $ rmh -v 138 534
+    % rmh -v 138 534
     Backing up /home/adamatan/.ssh/known_hosts to /home/adamatan/.ssh/known_hosts.rmh.bak
 
     Removing lines:
@@ -65,7 +73,7 @@ Removes lines from `~/.ssh/known_hosts`.
 
 Opens a source file in a browser, with syntax highlighting.
 
-    $ pyg somefile.py
+    % pyg somefile.py
 
 ### [svndiff](https://github.com/adamatan/bin/tree/master/scripts/svndiff)
 
@@ -77,10 +85,10 @@ OSX GUI svn diff.
 
 Creates an executable file with the right shebang for bash or Python.
 
-    $ pvim blah.py
+    % pvim blah.py
     <vim opens, you can edit the file and exit>
 
-    $ cat blah.py
+    % cat blah.py
     #!/usr/bin/python
 
 # setup
