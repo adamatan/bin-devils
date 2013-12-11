@@ -12,6 +12,20 @@ Prints the full path name of one or more files.
     /Users/adamatan/bins/scripts/fpn/README.md
     /Users/adamatan/bins/scripts/fpn/fpn.py
 
+`fpn` and `find` can be elegantly combined:
+
+    % find | xargs fpn
+    /Users/adamatan/bins/scripts/.
+    /Users/adamatan/bins/scripts/./comment
+    /Users/adamatan/bins/scripts/./comment/comment.py
+    /Users/adamatan/bins/scripts/./comment/LICENSE
+    /Users/adamatan/bins/scripts/./comment/README.md
+    /Users/adamatan/bins/scripts/./datef
+    /Users/adamatan/bins/scripts/./datef/build
+    ...
+    /Users/adamatan/bins/scripts/./vim_scripts/pvim.sh
+    /Users/adamatan/bins/scripts/./vim_scripts/README.md
+
 ## Man
 
     usage: fpn [-h] [-f] filename [filename ...]
