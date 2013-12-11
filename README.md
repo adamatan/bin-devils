@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/adamatan/bin.png?branch=master)](https://travis-ci.org/adamatan/bin)
+
 Looking for the [setup guide](#setup)?
 
 # Scripts
