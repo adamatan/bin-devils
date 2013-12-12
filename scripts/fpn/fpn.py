@@ -2,6 +2,8 @@
 
 import os
 import argparse
+import getpass
+import socket
 
 """Prints the full path name of one or more files."""
 
@@ -11,8 +13,12 @@ parser    = argparse.ArgumentParser(description='Display the full path name of a
 parser.add_argument('filename', type=str, nargs='+',
 					help='one or more filenames or directory names.')
 parser.add_argument('-f', '--files-only', help="List only files, not directories", default=False, action='store_true')
+parser.add_argument('-r', '--rsync', help="Show full path (username@hostname:fpn) for rsync-ing from a remote computer", default=False, action='store_true')
 
 args = parser.parse_args()
+
+rsync_prefix = "%s@%s:" % (getpass.getuser(), socket.gethostname()) if args.rsync else ""
+
 
 for f in args.filename:
     f=f.decode('utf8')
@@ -23,6 +29,6 @@ for f in args.filename:
 
     # Print if it's a file, or it's a directory and "--all" is True
     if (os.path.isfile(full_path)) or (os.path.isdir(full_path) and not args.files_only):
-        print(full_path)
+        print(rsync_prefix+full_path)
 
 

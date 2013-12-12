@@ -28,7 +28,7 @@ Prints the full path name of one or more files.
 
 ## Man
 
-    usage: fpn [-h] [-f] filename [filename ...]
+    usage: fpn [-h] [-f] [-r] filename [filename ...]
 
     Display the full path name of a file.
 
@@ -38,3 +38,5 @@ Prints the full path name of one or more files.
     optional arguments:
       -h, --help        show this help message and exit
       -f, --files-only  List only files, not directories
+      -r, --rsync       Show full path (username@hostname:fpn) for rsync-ing from
+                        a remote computer
