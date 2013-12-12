@@ -28,12 +28,13 @@ Prints the full path name of one or more files.
 
 ## Man
 
-    usage: fpn [-h] [-f] [-r] filename [filename ...]
+    usage: fpn [-h] [-f] [-r] [filename [filename ...]]
 
     Display the full path name of a file.
 
     positional arguments:
-      filename          one or more filenames or directory names.
+      filename          One or more filenames or directory names. Defaults to all
+                        files in the current working directory, like 'ls -a'.
 
     optional arguments:
       -h, --help        show this help message and exit
