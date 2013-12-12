@@ -38,5 +38,5 @@ Prints the full path name of one or more files.
     optional arguments:
       -h, --help        show this help message and exit
       -f, --files-only  List only files, not directories
-      -r, --rsync       Show full path (username@hostname:fpn) for rsync-ing from
-                        a remote computer
+      -r, --rsync       Prefix "whoami@hostname:" to the full path for rsync-ing
+                        from a remote computer.

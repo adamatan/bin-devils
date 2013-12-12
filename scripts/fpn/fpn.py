@@ -13,7 +13,7 @@ parser    = argparse.ArgumentParser(description='Display the full path name of a
 parser.add_argument('filename', type=str, nargs='+',
 					help='one or more filenames or directory names.')
 parser.add_argument('-f', '--files-only', help="List only files, not directories", default=False, action='store_true')
-parser.add_argument('-r', '--rsync', help="Show full path (username@hostname:fpn) for rsync-ing from a remote computer", default=False, action='store_true')
+parser.add_argument('-r', '--rsync', help="""Prefix "whoami@hostname:" to the full path for rsync-ing from a remote computer.""", default=False, action='store_true')
 
 args = parser.parse_args()
 
