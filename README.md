@@ -83,6 +83,13 @@ OSX GUI svn diff.
 
     svn diff --diff-cmd svndiff <optional filenames>
 
+### [trim](https://github.com/adamatan/bin/tree/master/scripts/trim)
+
+Trims (strips) whitespaces from each input line. Credits: [1](http://stackoverflow.com/a/3232433/51197), [1](http://stackoverflow.com/a/3232433/51197).
+
+    % printf " \t blah blah blah \t " | trim
+    blah blah blah
+
 ### [vim scripts](https://github.com/adamatan/bin/tree/master/scripts/vim_scripts)
 
 Creates an executable file with the right shebang for bash or Python.
