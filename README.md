@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/adamatan/bin.png?branch=master)](https://travis-ci.org/adamatan/bin)
+[![Build Status](https://travis-ci.org/adamatan/bin.png?branch=master)](https://travis-ci.org/adamatan/bin-devils)
 
 Looking for the [setup guide](#setup)?
 
