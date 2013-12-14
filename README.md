@@ -83,6 +83,12 @@ OSX GUI svn diff.
 
     svn diff --diff-cmd svndiff <optional filenames>
 
+### [serve](https://github.com/adamatan/bin/tree/master/scripts/serve)
+
+	Open a browser window at ".", using Pythons SimpleHTTPServer.
+
+	% serve
+
 ### [trim](https://github.com/adamatan/bin/tree/master/scripts/trim)
 
 Trims (strips) whitespaces from each input line. Credits: [1](http://stackoverflow.com/a/3232433/51197), [1](http://stackoverflow.com/a/3232433/51197).
