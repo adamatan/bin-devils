@@ -49,6 +49,13 @@ Prints the full path name of one or more files.
     % fpn LICENSE
     /Users/adamatan/bins/scripts/fpn/LICENSE
 
+### [random](https://github.com/adamatan/bin/tree/master/scripts/randomlib)
+
+Prints random numbers or characters.
+
+	% random
+    0.322526331624
+
 ### [rmf](https://github.com/adamatan/bin/tree/master/scripts/rmf)
 
 `rm -rf` replacement. Copies files to `/tmp/rmf`.
