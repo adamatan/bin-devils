@@ -102,6 +102,7 @@ print_and_run_command "$DATE_COMMAND -u \"+%Y-%m-%d %H:%M:%S.%N %z (%Z)\"" 	"Spa
 printf "\nAndroid picture name style, '.' instead of ':':\n"
 print_and_run_command "$DATE_COMMAND    \"+%Y-%m-%d %H.%M.%S\"" 			"Local"
 print_and_run_command "$DATE_COMMAND -u \"+%Y-%m-%d %H.%M.%S\"" 			"UTC"
+print_and_run_command "$DATE_COMMAND    \"+%Y-%m-%d-%H.%M.%S\""				"No Spaces"
 
 printf "\nMy log line formats, based on RFC 3339 / ISO 8601 in UTC:\n"
 print_and_run_command "$DATE_COMMAND -u \"+[%Y-%m-%d %H:%M:%S.%N %z (%Z)]\"" 	"Log format, ISO 8601, [] delimited"
